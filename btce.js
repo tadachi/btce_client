@@ -1,5 +1,5 @@
 // btce.js
-// version 0.0.1.1
+// version 0.0.1.3
 // =======
 var crypto = require('crypto');
 var fs = require('fs');
