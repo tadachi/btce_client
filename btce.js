@@ -59,10 +59,10 @@ createParams = function (method, params) {
             return {'method' : 'TradeHistory', 'nonce' : unixTimeStamp }
         case 'ActiveOrders':
             return {'method' : 'TradeHistory', 'nonce' : unixTimeStamp }
-        case 'Trade':
-            params['method'] = 'Trade';
+        case 'Trade': //Incomplete
+            params['method'] = 'Trade'; 
             return params;
-        case 'CancelOrder':
+        case 'CancelOrder': //Incomplete
             params['method'] = 'CancelOrder';
             return params;
         default:
